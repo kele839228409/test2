@@ -1,0 +1,140 @@
+.banner{ 
+	width:100%; 
+	height: 500px;
+	 position: relative; 
+	 overflow: hidden;
+	 }
+.banner img{ 
+	width:1920px; 
+	height: 500px; 
+	position: absolute; 
+	left: 50%; 
+	margin-left: -960px;
+	}
+
+.news{ 
+	width:1200px; 
+	height: 855px; 
+	margin:20px auto;
+	}
+.news .main{ margin-top: 50px;}	
+
+.news .main .sidebar{ 
+	width:221px;  
+	float: left;
+	}
+.news .main .sidebar li{ 
+	width:221px; 
+	height: 70px; 
+	border-top: 1px solid #bdbab6;
+	}
+.news .main .sidebar li a{ 
+	display: block; 
+	width:221px; 
+	height: 70px; 
+	background: #e3dfdb; 
+	font-size: 28px; 
+	color:#a19e9b; 
+	text-align: center; 
+	line-height: 70px;
+	}
+.news .main .sidebar li a:hover{ 
+	background: #cea583;
+	color:#fff;
+	}
+.news .main .sidebar li .current{
+	background: #cea583;
+	color:#fff;
+}
+
+.news .main .case{ 
+	width:925px; 
+	height: 712px; 
+	float: right;
+	}
+.news .main .case h3{ 
+	width:588px; 
+	height: 35px; 
+	background:url(../img/news_line.png) no-repeat bottom; 
+	float: left; 
+	font-family: "Microsoft New Tai Lue"; 
+	font-size: 36px; 
+	color:#a1a07f;
+	padding: 0 0 5px 12px;
+	}
+.news .main .case .news_list{ 
+	width:854px; 
+	height: 586px; 
+	float: left; 
+	margin-left: 10px;
+	}
+.news .main .case .news_list li{ 
+	height: 42px; 
+	border-bottom: 1px dashed #c6c6c6; 
+	line-height: 42px;
+	}
+.news .main .case .news_list li a{ 
+	font-size: 14px; 
+	color:#555449; 
+	display: block; 
+	background: url(../img/news_point.jpg) no-repeat left center; 
+	float: left; 
+	width:500px; 
+	height: 42px; 
+	padding-left: 10px; 
+	margin-left: 10px;
+	}
+.news .main .case .news_list li span{ 
+	font-size: 14px; 
+	color:#555449; 
+	float: right;
+	}
+.news .main .case .news_list li a:hover{ 
+	color:#e0363e;
+	}
+	
+.page{ 	 
+	float: right; 
+	height: 19px;
+	margin-right: 70px;
+	}
+.page li{ 
+	width:19px; 
+	height: 19px; 
+	float: left;
+	margin: 0 8px;
+}
+.page li a{ 
+	font-size: 14px; 
+	color:#000; 	 
+	display: block; 
+	float: left; 
+	width: 19px; 
+	height: 19px; 
+	text-align: center; 
+	line-height: 19px;
+	}
+.page .prev{ 
+	width:46px; 
+	height: 19px;
+	}
+.page .prev a{
+	width:46px; 
+	height: 19px;
+}
+.page .next{ 
+	width:46px; 
+	height: 19px;
+	}
+.page .next a{
+	width:46px; 
+	height: 19px;
+}
+.page li a:hover{ 
+	background: #69513d; 
+	color:#fff;
+	}
+.page li .on{
+	background: #69513d; 
+	color:#fff;
+}

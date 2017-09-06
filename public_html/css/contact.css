@@ -1,0 +1,174 @@
+.banner{ 
+	width:100%; 
+	height: 500px; 
+	position: relative; 
+	overflow: hidden;
+	}
+.banner img{ 
+	width:1920px; 
+	height: 500px; 
+	position: absolute; 
+	left: 50%; 
+	margin-left: -960px;
+	}
+
+.contact_us{ 
+	width:1200px; 
+	margin:20px auto 0 auto;
+	}
+
+.title{ 
+	width:446px; 
+	height: 70px; 
+	margin:0 auto; 
+	text-align: center;}
+.title h2{ 
+	font-size: 30px; 
+	color:#262322;
+	}
+.title h3{ 
+	font-size: 36px; 
+	color:#262322; 
+	line-height: 30px; 
+	background: url(../img/top_bg.png) no-repeat center;
+	}
+iframe{ 
+	width:1200px; 
+	height: 485px;
+	margin: 30px 0 40px 0;
+	}	
+
+.detail{ 
+	width:1050px; 
+	height: 591px; 
+	background: url(../img/msg_board_bg.png) no-repeat; 
+	margin: 30px auto 100px auto;
+	overflow: hidden;
+	}	
+.detail form{ 
+	width:470px; 
+	height: 420px; 
+	margin: 100px 0 0 80px; 
+	position: relative;
+	float: left;
+	}
+.detail form input{ 
+	width:354px; 
+	height: 35px; 
+	border: 1px solid #dbdbdb; 
+	line-height: 35px;
+	margin-bottom:13px;
+	padding: 0 8px;
+	font-size: 14px;
+	}
+.detail label{ font-size: 18px; color:#333;}
+.detail form textarea{ 
+	width:354px; 
+	height: 163px; 
+	border: 1px solid #dbdbdb; 
+	margin-left: 18px; 
+	position: absolute; 
+	resize: none;
+	margin-bottom: 15px;
+	padding: 0 8px;
+	overflow: hidden;
+	font-size: 14px;
+	}
+.detail .name{ 
+	margin-left: 36px;
+	}
+.detail .code{ 
+	width:104px; 
+	height: 35px; 
+	margin: 150px 0 0 18px;
+	}
+.detail .left{ float: left; }
+.detail .right{ 
+	float: left;
+	width:145px;
+	height: 34px;
+	margin-top: 153px;
+	margin-left: 10px;
+	}
+.detail .right img{ cursor: pointer;}
+.detail .right a img{ 
+	margin-bottom: 2px;
+	margin-left: 8px;
+	}
+.detail .btn{ 
+	width:122px; 
+	height: 32px; 
+	margin: 10px 0 0 96px;
+	padding: 0;
+	background: url(../img/btn_bg.jpg) no-repeat;
+	cursor: pointer;
+	}
+.detail .location{ 
+	width:271px; 
+	height: 195px; 
+	float:left; 
+	margin: 135px 0 0 50px; 
+	border-bottom: 1px solid #cfcfcf;
+	}
+.detail .location p{ 
+	font-size: 14px; 
+	color:#717171;
+	}
+.detail .location span{ 
+	font-size: 18px; 
+	color:#7da1bc;
+	}
+.detail .location .place{ 
+	margin-top: 16px;
+	}
+.detail .location .get{ 
+	margin-bottom: 18px;
+	}
+.contact{ 
+	width:1160px; 
+	height: 110px; 
+	margin: 0 auto 110px auto;
+	}
+.contact li{ 
+	float: left; 
+	width:80px; 
+	height: 110px; 
+	margin: 0 105px; 
+	text-align: center;
+	}
+.contact li a{ 
+	display: block; 
+	font-size: 18px; 
+	color:#3a3c3e; 
+	width:80px; 
+	height: 25px; 
+	padding-top: 85px; 
+	text-align: center;
+	}
+.contact li a:hover{ 
+	color:#fda62a;
+	}
+.phone{ 
+	background: url(../img/phone.png) no-repeat top center;
+	}
+.phone:hover{ 
+	background: url(../img/phone_hover.png) no-repeat top center;
+	}
+.qq{ 
+	background: url(../img/qq.png) no-repeat top center;
+	}
+.qq:hover{ 
+	background: url(../img/qq_hover.png) no-repeat top center;
+	}
+.wechat{ 
+	background: url(../img/wechat.png) no-repeat top center;
+	}
+.wechat:hover{
+	background: url(../img/wechat_hover.png) no-repeat top center;
+	}
+.m_blog{ 
+	background: url(../img/m_blog.png) no-repeat; top center;
+	}
+.m_blog:hover{ 
+	background: url(../img/m_blog_hover.png) no-repeat; top center;
+	}

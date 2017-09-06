@@ -1,0 +1,135 @@
+.banner{ 
+	width:100%; 
+	height: 500px; 
+	position: relative; 
+	overflow: hidden;
+	}
+.banner img{ 
+	width:1920px; 
+	height: 500px; 
+	position: absolute; 
+	left: 50%; 
+	margin-left: -960px;
+	}
+
+.pro_details{ 
+	width:1200px; 
+	margin:20px auto 0 auto;
+	}
+.pro_details .main{
+	margin-top: 50px;
+}
+
+.pro_details .main .sidebar{ 
+	width:221px; 
+	float: left;}
+.pro_details .main .sidebar li{ 
+	width:221px; 
+	height: 70px; 
+	border-top: 1px solid #bdbab6;
+	}
+.pro_details .main .sidebar li a{ 
+	display: block; 
+	width:221px; 
+	height: 70px; 
+	background: #e3dfdb; 
+	font-size: 28px; 
+	color:#a19e9b; 
+	text-align: center; 
+	line-height: 70px;
+	}
+.pro_details .main .sidebar li a:hover{ 
+	background: #cea583; 
+	color:#fff;
+	}
+.pro_details .main .sidebar li .current{
+	background: #cea583; 
+	color:#fff;
+}	
+.pro_details .main img{ 
+	float: right; 
+	width:925px; 
+	height: 303px;
+	}
+.reason{ 
+	float: right; 
+	width:925px; 
+	height: 210px; 
+	margin-top: 100px;
+	}
+.reason h3{ 
+	text-align: center; 
+	font-size: 36px; 
+	margin-bottom: 45px;
+	}
+.reason ol{ 
+	width:802px; 
+	height: 122px; 
+	margin: 0 auto;
+	}
+.reason ol li{ 
+	width:122px; 
+	height: 122px; 
+	float: left; 
+	background: url(../img/pro_bg.png) no-repeat; 
+	margin-right: 48px; 
+	text-align: center;
+	}
+.reason ol li:first-child+li+li+li+li{ 
+	margin-right: 0;
+	}
+.reason ol li p{ 
+	color:#fff; 
+	font-size: 36px;
+	margin-top: 38px;
+	}
+.reason ol li .text{ 
+	width:100px; 
+	height: 94px; 
+	margin: 14px 0 0 10px;
+	}
+
+.msg{ 
+	width:925px; 
+	float: right;
+	 margin: 150px 0;
+	 }
+.msg h4{ 
+	width:925px; 
+	height: 103px; 
+	text-align: center; 
+	background:#ccc; 
+	line-height: 103px; 
+	font-size: 32px; 
+	color:#fcfcfc;
+	}
+.msg li{ 
+	width:923px; 
+	height: 100px; 
+	line-height: 100px; 
+	border-bottom: 1px dashed #ccc; 
+	border-left: 1px solid #ccc; 
+	border-right: 1px solid #ccc; 
+	text-align: center; 
+	position: relative;
+	}
+.msg li:first-child+li+li+li+li+li+li+li{ border-bottom: 1px solid #ccc; ;}
+.msg li b{ 
+	position: absolute; 
+	left:66px; 
+	font-size: 30px;
+	}
+.msg li span{ 
+	font-size: 30px; 
+	color:#999;
+	}
+.msg li .open{ 
+	left:34px;
+	}
+.msg li .color{ 
+	background: url(../img/msg_bg.png) no-repeat center;
+	display: block;
+	width: 367px;
+	height: 100px;
+	margin: 0 auto;
+	}
